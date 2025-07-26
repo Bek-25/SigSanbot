@@ -104,4 +104,10 @@ else:
     print("❌ Сигнал не обнаружен")
     send_to_telegram("✅ Бот работает. Пока сигнала нет❌.")
     
+import time
+
+# В самом конце файла:
+while True:
+    time.sleep(60)
+
 
